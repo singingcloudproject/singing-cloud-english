@@ -199,6 +199,18 @@ document.querySelectorAll("form.form").forEach((form) => {
       form.reset();
       status.textContent = form.dataset.success;
       status.classList.add("ok");
+      // replace the form with a clear "Thank you" box (in the page's language)
+      const thanks = document.createElement("div");
+      thanks.className = "form-thanks";
+      thanks.setAttribute("role", "status");
+      thanks.setAttribute("tabindex", "-1");
+      thanks.innerHTML = '<span class="form-thanks-icon" aria-hidden="true">✓</span>';
+      const p = document.createElement("p");
+      p.textContent = form.dataset.success;
+      thanks.appendChild(p);
+      form.appendChild(thanks);
+      form.classList.add("sent");
+      thanks.focus();
     } catch (err) {
       status.textContent = form.dataset.error;
       status.classList.add("err");
