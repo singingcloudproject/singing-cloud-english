@@ -1,0 +1,7 @@
+# Not part of the website — kept on this computer only
+desktop.ini
+Thumbs.db
+__pycache__/
+*.pyc
+# the original logo photo (may contain hidden camera/device details); the cleaned logo.png is published instead
+Logo.pnj

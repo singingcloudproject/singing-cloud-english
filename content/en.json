@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "title": "Online English Tutor & Native Speakers | Singing Cloud English",
+    "description": "One-on-one online English lessons with certified ESL teachers and native speakers, a Speaking Club, IELTS and Business English. Lessons from $12.",
+    "og_locale": "en_US",
+    "og_title": "Singing Cloud English — online English lessons with native speakers",
+    "og_image_alt": "Singing Cloud English logo: a glossy blue cloud singing"
+  },
+  "nav": {
+    "links": {
+      "lessons": "Lessons",
+      "about": "About me",
+      "teachers": "Teachers",
+      "prices": "Prices",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "join": "Teach with us"
+    },
+    "cta": "Trial lesson",
+    "menu": "Main menu",
+    "language": "Choose language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "eyebrow": "Online English school",
+    "title": "Speak English with confidence",
+    "title_sub": "Online English lessons with experienced teachers and native speakers",
+    "subtitle": "One-on-one online English lessons, a Speaking Club and IELTS preparation — with certified ESL teachers and native speakers from Canada, the USA and the UK. For adults, professionals, kids and teens.",
+    "cta": "Book a trial lesson",
+    "secondary": "See lessons",
+    "secondary_target": "lessons",
+    "badges": [
+      "6 years of teaching experience",
+      "Native English-speaking teachers",
+      "Lessons on Zoom or Google Meet"
+    ],
+    "logo_alt": "Singing Cloud English logo: a glossy blue cloud singing"
+  },
+  "lessons": {
+    "kicker": "Lessons",
+    "title": "Lessons for every goal",
+    "intro": "Conversation, Business English, IELTS preparation and English for kids — every online course is tailored to your level, schedule and goals.",
+    "items": [
+      {
+        "icon": "chat",
+        "name": "Conversation",
+        "text": "Stop translating in your head. Build fluency through relaxed, real conversation on topics you enjoy.",
+        "points": [
+          "Speaking & listening",
+          "Natural phrases and idioms",
+          "Pronunciation practice"
+        ]
+      },
+      {
+        "icon": "briefcase",
+        "name": "Business English",
+        "text": "Sound professional in meetings, emails, presentations and job interviews.",
+        "points": [
+          "Meetings & negotiations",
+          "Emails and reports",
+          "Interview preparation"
+        ]
+      },
+      {
+        "icon": "award",
+        "name": "IELTS preparation",
+        "text": "A clear strategy for all four parts of the test, with mock exams and detailed feedback.",
+        "points": [
+          "Speaking & writing feedback",
+          "Reading & listening strategies",
+          "Full mock tests"
+        ]
+      },
+      {
+        "icon": "star",
+        "name": "English for kids & teens",
+        "text": "Playful, structured lessons that help children and teenagers love learning English.",
+        "points": [
+          "Games, songs and stories",
+          "School support",
+          "Confidence from day one"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "kicker": "About me",
+    "title": "Hello, I'm your teacher",
+    "name": "[Your name]",
+    "role": "Founder & English teacher",
+    "photo_alt": "Portrait of [your name], online English tutor and founder of Singing Cloud English",
+    "photo_label": "Your photo here",
+    "bio": [
+      "[Placeholder — write your bio here.] I have been teaching English for 6 years and hold a master's degree in [your subject].",
+      "[Tell students about your teaching style, who you love working with, and why you started Singing Cloud English.]"
+    ],
+    "stats": [
+      {
+        "num": "6",
+        "label": "years of teaching"
+      },
+      {
+        "num": "MA",
+        "label": "master's degree"
+      }
+    ],
+    "video_label": "Watch my intro video",
+    "video_note": "Your intro video will appear here"
+  },
+  "teachers": {
+    "kicker": "Our teachers",
+    "title": "Our Teachers",
+    "intro": "Learn with experienced English teachers — including native English speakers from Canada, the USA and the UK.",
+    "items": [
+      {
+        "flag": "canada",
+        "country": "Canada",
+        "line": "Native speaker from Canada",
+        "alt": "Flag of Canada"
+      },
+      {
+        "flag": "usa",
+        "country": "United States",
+        "line": "Native speaker from the USA",
+        "alt": "Flag of the United States"
+      },
+      {
+        "flag": "uk",
+        "country": "United Kingdom",
+        "line": "Native speaker from the UK",
+        "alt": "Flag of the United Kingdom"
+      }
+    ],
+    "match": "Tell us your goals, and we'll match you with the right teacher.",
+    "cta": "Find my teacher",
+    "teach_link": "Are you a teacher? Teach with us →"
+  },
+  "prices": {
+    "kicker": "Prices",
+    "title": "Simple, honest prices",
+    "intro": "Learn with a certified ESL teacher or a native English speaker — one-on-one, in a package or in a small Speaking Club.",
+    "range": "Lessons from $12",
+    "best_value": "Best value",
+    "choose": "Choose",
+    "unsure": "Not sure which to choose?",
+    "unsure_cta": "Get in touch",
+    "items": [
+      {
+        "for": "Get started",
+        "name": "Trial lesson",
+        "price": "$5",
+        "per": "15 minutes"
+      },
+      {
+        "for": "Certified ESL teacher",
+        "name": "One-on-one lesson",
+        "price": "$22",
+        "per": "per 50-minute lesson"
+      },
+      {
+        "for": "Certified ESL teacher",
+        "name": "8-lesson package",
+        "price": "$160",
+        "per": "8 × 50-minute lessons",
+        "best": true
+      },
+      {
+        "for": "Certified ESL teacher",
+        "name": "Speaking Club",
+        "price": "$12",
+        "per": "per hour · groups of 4"
+      },
+      {
+        "for": "Exams & career",
+        "name": "IELTS, Business English & exam preparation",
+        "price": "+$10",
+        "per": "per 50-minute lesson"
+      },
+      {
+        "for": "Native speaker · Canada, USA, UK",
+        "name": "One-on-one lesson",
+        "price": "$32",
+        "per": "per 50-minute lesson"
+      },
+      {
+        "for": "Native speaker · Canada, USA, UK",
+        "name": "8-lesson package",
+        "price": "$240",
+        "per": "8 × 50-minute lessons",
+        "best": true
+      },
+      {
+        "for": "Native speaker · Canada, USA, UK",
+        "name": "Speaking Club",
+        "price": "$22",
+        "per": "per hour · groups of 4"
+      }
+    ]
+  },
+  "how": {
+    "kicker": "How it works",
+    "title": "Start in three easy steps",
+    "steps": [
+      {
+        "title": "Trial lesson",
+        "text": "Book a 15-minute trial lesson for $5. We meet, check your level and talk about your goals."
+      },
+      {
+        "title": "Choose a plan",
+        "text": "Pick the lessons and plan that fit your goals, budget and schedule."
+      },
+      {
+        "title": "Start learning",
+        "text": "Learn online from anywhere, with a teacher who follows your progress."
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Questions & answers",
+    "items": [
+      {
+        "q": "How do online lessons work?",
+        "a": "Lessons take place on Zoom or Google Meet. All you need is a phone, tablet or computer with internet. Your teacher shares materials on screen and sends notes after each lesson."
+      },
+      {
+        "q": "How much is the trial lesson?",
+        "a": "The trial lesson is 15 minutes and costs $5. It's a relaxed way to meet your teacher, check your level and plan your lessons — with no obligation to continue."
+      },
+      {
+        "q": "What level do I need?",
+        "a": "Every level is welcome — from complete beginners to advanced learners. We check your level during the trial lesson."
+      },
+      {
+        "q": "Can I study with a native English speaker?",
+        "a": "Yes. Our team includes native English-speaking teachers. Just tell us your preference when you book."
+      },
+      {
+        "q": "Can I reschedule a lesson?",
+        "a": "Yes — please let us know at least 24 hours before the lesson. [Edit with your own policy.]"
+      }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Book your trial lesson",
+    "intro": "Message us on WhatsApp or fill in the form — we usually reply within one day.",
+    "whatsapp_btn": "Message on WhatsApp",
+    "whatsapp_text": "Hello! I'd like to book a trial English lesson.",
+    "whatsapp_note": "Replies in English, Russian or Armenian",
+    "or": "Or send a message",
+    "form": {
+      "name": "Your name",
+      "email": "Email",
+      "phone": "WhatsApp / Telegram (optional)",
+      "topic": "Which lessons interest you?",
+      "topic_options": [
+        "Conversation",
+        "Business English",
+        "IELTS preparation",
+        "English for kids & teens",
+        "Speaking Club",
+        "Not sure yet"
+      ],
+      "message": "Your level, goals and best times for lessons",
+      "send": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you! Your message has been sent. We'll be in touch soon.",
+      "error": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
+      "not_connected": "The form isn't connected yet — please use WhatsApp for now.",
+      "subject": "New enquiry — Singing Cloud English (EN)"
+    }
+  },
+  "join": {
+    "kicker": "Teach with us",
+    "title": "Teach with us",
+    "intro": "Are you an experienced English teacher or a native speaker? Join the Singing Cloud English team.",
+    "form": {
+      "heading": "Apply to teach",
+      "name": "Your name",
+      "email": "Email",
+      "country": "Country",
+      "native_language": "Native language",
+      "experience": "Years of teaching experience",
+      "lessons": "Lessons you can teach",
+      "lesson_options": [
+        "Conversation",
+        "Business English",
+        "IELTS preparation",
+        "English for kids & teens",
+        "Speaking Club"
+      ],
+      "availability": "Weekly availability",
+      "availability_hint": "e.g. Mon–Fri 9:00–14:00 (your time zone), about 15 hours a week",
+      "video": "Link to a short intro video (YouTube, Google Drive…)",
+      "message": "Message",
+      "send": "Send application",
+      "sending": "Sending…",
+      "success": "Thank you! Your application has been sent. We'll be in touch soon.",
+      "error": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
+      "not_connected": "The application form isn't connected yet — please message us on WhatsApp for now.",
+      "subject": "Teacher application — Singing Cloud English (EN)"
+    }
+  },
+  "footer": {
+    "tagline": "Speak English with confidence — online lessons with experienced teachers.",
+    "rights": "All rights reserved."
+  }
+}

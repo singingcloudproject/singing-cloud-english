@@ -1,0 +1,75 @@
+{
+  "brand": "Singing Cloud English",
+  "site_url": "https://singingcloudproject.github.io/singing-cloud-english/",
+  "noindex": true,
+  "whatsapp_number": "10000000000",
+  "formspree_id": "YOUR_FORM_ID",
+  "formspree_teachers_id": "YOUR_TEACHER_FORM_ID",
+  "schema_type": "EducationalOrganization",
+  "about_photo": "",
+  "intro_video_youtube_id": "",
+  "languages": [
+    {
+      "code": "en",
+      "dir": "ltr",
+      "path": "",
+      "label": "EN",
+      "enabled": true
+    },
+    {
+      "code": "ru",
+      "dir": "ltr",
+      "path": "ru/",
+      "label": "RU",
+      "enabled": true
+    },
+    {
+      "code": "hy",
+      "dir": "ltr",
+      "path": "hy/",
+      "label": "ՀԱՅ",
+      "enabled": true
+    }
+  ],
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero"
+    },
+    {
+      "id": "lessons",
+      "type": "cards",
+      "variant": "cards-4"
+    },
+    {
+      "id": "about",
+      "type": "about"
+    },
+    {
+      "id": "teachers",
+      "type": "teachers"
+    },
+    {
+      "id": "prices",
+      "type": "prices",
+      "bg": "bg-soft"
+    },
+    {
+      "id": "how",
+      "type": "steps"
+    },
+    {
+      "id": "faq",
+      "type": "faq"
+    },
+    {
+      "id": "contact",
+      "type": "contact"
+    },
+    {
+      "id": "join",
+      "type": "join",
+      "bg": "bg-soft"
+    }
+  ]
+}

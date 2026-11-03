@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://singingcloudproject.github.io/singing-cloud-english/sitemap.xml
