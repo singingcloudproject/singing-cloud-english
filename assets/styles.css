@@ -360,3 +360,19 @@ p { margin: 0 0 1em; }
 .form-thanks p { margin: 0; font-size: 1.15rem; font-weight: 700; line-height: 1.6; }
 .form-thanks-icon { display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%;
   font-size: 30px; font-weight: 800; color: #23774a; background: #e3f4ea; border: 2px solid #23774a; }
+
+/* ---------- Speaking Club highlight band ---------- */
+.club { background: linear-gradient(135deg, var(--sky-soft) 0%, #fdf3e0 100%); text-align: center; }
+.club-inner { display: grid; justify-items: center; }
+.club-icon { width: 72px; height: 72px; display: grid; place-items: center; border-radius: 50%; margin-bottom: 18px;
+  background: #fff; color: var(--sky); box-shadow: 0 0 0 10px rgba(255, 255, 255, .55), var(--shadow-sm); }
+.club-icon .icon { width: 34px; height: 34px; }
+.club h2 { font-size: clamp(2rem, 6vw, 3.2rem); max-width: 760px; }
+.club .lead { max-width: 620px; }
+.club-points { list-style: none; padding: 0; margin: 6px 0 28px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+.club-points li { display: inline-flex; align-items: center; gap: 8px; padding: 9px 16px; border-radius: 999px; background: #fff;
+  border: 1px solid var(--line); font-weight: 700; font-size: .95rem; }
+.club-points .icon { color: var(--sky); }
+/* "Why choose us" cards: icon on top, centred */
+#why .card { text-align: center; }
+#why .card-icon { margin-inline: auto; }

@@ -45,6 +45,7 @@ ICONS = {
     "heart": '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
     "cap": '<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/>',
     "building": '<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1M10 21v-3h4v3"/>',
+    "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
     "check": '<path d="m5 12 5 5 9-10"/>',
     "play": '<path d="M8 5v14l11-7z" fill="currentColor" stroke="none"/>',
     "image": '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/>',
@@ -140,6 +141,23 @@ def s_cards(sec, t, ctx):
     {head_block(t.get("kicker"), t["title"], t.get("intro"))}
     <div class="cards {e(variant)}">{cards}
     </div>
+  </div>
+</section>"""
+
+
+
+def s_club(sec, t, ctx):
+    """Speaking Club highlight: a big headline, short text, the two prices and a button."""
+    points = "".join(f"<li>{icon('check')}<span>{e(p)}</span></li>" for p in t.get("points", []))
+    return f"""
+<section class="section club" id="{e(sec["id"])}">
+  <div class="container narrow club-inner">
+    <div class="club-icon reveal">{icon("chat")}</div>
+    <p class="kicker reveal">{e(t["kicker"])}</p>
+    <h2 class="reveal">{e(t["title"])}</h2>
+    <p class="lead reveal">{e(t["text"])}</p>
+    <ul class="club-points reveal">{points}</ul>
+    <a class="btn btn-gold reveal" href="#contact">{e(t["cta"])}</a>
   </div>
 </section>"""
 
@@ -405,6 +423,7 @@ RENDERERS = {
     "hero": s_hero,
     "cards": s_cards,
     "about": s_about,
+    "club": s_club,
     "teachers": s_teachers,
     "portfolio": s_portfolio,
     "prices": s_prices,

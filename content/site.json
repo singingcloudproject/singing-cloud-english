@@ -37,9 +37,18 @@
       "type": "hero"
     },
     {
+      "id": "why",
+      "type": "cards",
+      "bg": "bg-soft"
+    },
+    {
       "id": "lessons",
       "type": "cards",
       "variant": "cards-4"
+    },
+    {
+      "id": "club",
+      "type": "club"
     },
     {
       "id": "about",

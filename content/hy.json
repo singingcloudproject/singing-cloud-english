@@ -1,5 +1,5 @@
 {
-  "_draft_note": "Armenian (Eastern) translation is a DRAFT — please have a native Armenian speaker check all text before publishing.",
+  "_draft_note": "Armenian (Eastern) translation is a DRAFT — please have a native Armenian speaker check all text before publishing, including the new hero, 'Why choose us' and Speaking Club texts.",
   "meta": {
     "title": "Անգլերենի առցանց դասեր լեզվակիրների հետ | Singing Cloud English",
     "description": "Անգլերենի առցանց դասընթացներ՝ անհատական դասեր, անգլերեն լեզվակրի հետ, Speaking Club, IELTS-ի նախապատրաստում և բիզնես անգլերեն։ Դասեր $12-ից։",
@@ -24,10 +24,10 @@
   },
   "hero": {
     "eyebrow": "Անգլերենի առցանց դասընթացներ",
-    "title": "Խոսեք անգլերեն վստահորեն",
-    "title_sub": "Անգլերենի առցանց դասեր փորձառու ուսուցիչների և լեզվակիրների հետ",
+    "title": "Զրոյից մինչև հերոս։",
+    "title_sub": "Առաջին բառից մինչև լեզվակրի պես սահուն խոսք։",
     "subtitle": "Անգլերենի անհատական առցանց դասեր, Speaking Club և IELTS-ի նախապատրաստում՝ հավաստագրված ESL ուսուցիչների և Կանադայից, ԱՄՆ-ից ու Մեծ Բրիտանիայից լեզվակիրների հետ։ Մեծահասակների, երեխաների և դեռահասների համար։",
-    "cta": "Գրանցվել փորձնական դասի",
+    "cta": "Փորձեք դասը $5-ով",
     "secondary": "Դիտել դասերը",
     "secondary_target": "lessons",
     "badges": [
@@ -36,6 +36,27 @@
       "Դասեր Zoom-ով կամ Google Meet-ով"
     ],
     "logo_alt": "Singing Cloud English-ի լոգոն՝ երգող կապույտ ամպ"
+  },
+  "why": {
+    "kicker": "Ինչու մենք",
+    "title": "Ինչու ընտրել Singing Cloud English-ը",
+    "items": [
+      {
+        "icon": "globe",
+        "name": "Փորձառու ուսուցիչներ և լեզվակիրներ",
+        "text": "Փորձառու ուսուցիչներ և լեզվակիրներ Կանադայից, ԱՄՆ-ից և Մեծ Բրիտանիայից։"
+      },
+      {
+        "icon": "award",
+        "name": "Ցանկացած նպատակի համար",
+        "text": "Սկսնակների համար, խոսակցական անգլերեն, քերականություն և IELTS։"
+      },
+      {
+        "icon": "clock",
+        "name": "Ճկուն և առցանց",
+        "text": "Անհատական դասեր կամ Speaking Club՝ ձեզ հարմար ժամերին։"
+      }
+    ]
   },
   "lessons": {
     "kicker": "Դասեր",
@@ -83,6 +104,16 @@
         ]
       }
     ]
+  },
+  "club": {
+    "kicker": "Speaking Club",
+    "title": "Դադարեք անգլերեն սովորել։ Սկսեք խոսել։",
+    "text": "Զարգացրեք խոսքը իրական զրույցներով՝ 4 հոգանոց փոքր խմբերում, լեզվակրի կամ հավաստագրված ուսուցչի հետ։",
+    "points": [
+      "$12/ժամ՝ հավաստագրված ուսուցչի հետ",
+      "$22/ժամ՝ լեզվակրի հետ"
+    ],
+    "cta": "Միանալ Speaking Club-ին"
   },
   "about": {
     "kicker": "Իմ մասին",

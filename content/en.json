@@ -23,10 +23,10 @@
   },
   "hero": {
     "eyebrow": "Online English school",
-    "title": "Speak English with confidence",
-    "title_sub": "Online English lessons with experienced teachers and native speakers",
+    "title": "From zero to hero.",
+    "title_sub": "From your first word to native-like fluency.",
     "subtitle": "One-on-one online English lessons, a Speaking Club and IELTS preparation — with certified ESL teachers and native speakers from Canada, the USA and the UK. For adults, professionals, kids and teens.",
-    "cta": "Book a trial lesson",
+    "cta": "Try a lesson for $5",
     "secondary": "See lessons",
     "secondary_target": "lessons",
     "badges": [
@@ -35,6 +35,27 @@
       "Lessons on Zoom or Google Meet"
     ],
     "logo_alt": "Singing Cloud English logo: a glossy blue cloud singing"
+  },
+  "why": {
+    "kicker": "Why choose us",
+    "title": "Why choose Singing Cloud English",
+    "items": [
+      {
+        "icon": "globe",
+        "name": "Experienced & native teachers",
+        "text": "Experienced teachers and native speakers from Canada, the USA and the UK."
+      },
+      {
+        "icon": "award",
+        "name": "Every goal covered",
+        "text": "Beginners, conversation, grammar and IELTS — whatever you need English for."
+      },
+      {
+        "icon": "clock",
+        "name": "Flexible and online",
+        "text": "One-on-one or speaking clubs, at times that suit you."
+      }
+    ]
   },
   "lessons": {
     "kicker": "Lessons",
@@ -82,6 +103,16 @@
         ]
       }
     ]
+  },
+  "club": {
+    "kicker": "Speaking Club",
+    "title": "Stop studying English. Start speaking it.",
+    "text": "Practise real conversations in small groups of 4 — with a native speaker or a certified teacher.",
+    "points": [
+      "$12/hour with a certified teacher",
+      "$22/hour with a native speaker"
+    ],
+    "cta": "Join a Speaking Club"
   },
   "about": {
     "kicker": "About me",
