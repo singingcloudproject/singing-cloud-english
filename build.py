@@ -45,6 +45,7 @@ ICONS = {
     "heart": '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
     "cap": '<path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2 9 2 12 0v-5"/>',
     "building": '<rect x="4" y="3" width="16" height="18" rx="1"/><path d="M9 7h1M14 7h1M9 11h1M14 11h1M9 15h1M14 15h1M10 21v-3h4v3"/>',
+    "book": '<path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/><path d="M8 7h8M8 10.5h6"/>',
     "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
     "check": '<path d="m5 12 5 5 9-10"/>',
     "play": '<path d="M8 5v14l11-7z" fill="currentColor" stroke="none"/>',
@@ -135,12 +136,15 @@ def s_cards(sec, t, ctx):
         <p>{e(it["text"])}</p>{points}
       </article>"""
     variant = sec.get("variant", "")
+    # optional closing line under the cards (e.g. "Every lesson is built around your level…")
+    after = f'<p class="cards-after reveal">{e(t["after"])}</p>' if t.get("after") else ""
     return f"""
 <section class="section {e(sec.get("bg", ""))}" id="{e(sec["id"])}">
   <div class="container">
     {head_block(t.get("kicker"), t["title"], t.get("intro"))}
     <div class="cards {e(variant)}">{cards}
     </div>
+    {after}
   </div>
 </section>"""
 

@@ -114,13 +114,35 @@
     ],
     "cta": "Join a Speaking Club"
   },
+  "materials": {
+    "kicker": "Our materials",
+    "title": "Our materials",
+    "items": [
+      {
+        "icon": "book",
+        "name": "Trusted coursebooks",
+        "text": "English File, Headway and Cambridge IELTS, chosen to match each student's level and goals."
+      },
+      {
+        "icon": "pen",
+        "name": "Personal materials",
+        "text": "Our own worksheets, conversation topics and real-life practice, made for each student."
+      },
+      {
+        "icon": "award",
+        "name": "Exam preparation",
+        "text": "Real IELTS-style practice tests and speaking practice."
+      }
+    ],
+    "after": "Every lesson is built around your level and your goals."
+  },
   "about": {
     "kicker": "About me",
     "title": "Hello, I'm your teacher",
     "name": "[Your name]",
     "role": "Founder & English teacher",
     "photo_alt": "Portrait of [your name], online English tutor and founder of Singing Cloud English",
-    "photo_label": "Your photo here",
+    "photo_label": "[Photo placeholder — your photo goes here]",
     "bio": [
       "[Placeholder — write your bio here.] I have been teaching English for 6 years and hold a master's degree in [your subject].",
       "[Tell students about your teaching style, who you love working with, and why you started Singing Cloud English.]"
@@ -136,7 +158,7 @@
       }
     ],
     "video_label": "Watch my intro video",
-    "video_note": "Your intro video will appear here"
+    "video_note": "[Video placeholder — your intro video goes here]"
   },
   "teachers": {
     "kicker": "Our teachers",

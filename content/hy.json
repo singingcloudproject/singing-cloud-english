@@ -1,5 +1,5 @@
 {
-  "_draft_note": "Armenian (Eastern) translation is a DRAFT — please have a native Armenian speaker check all text before publishing, including the new hero, 'Why choose us' and Speaking Club texts.",
+  "_draft_note": "Armenian (Eastern) translation is a DRAFT — please have a native Armenian speaker check all text before publishing, including the hero, 'Why choose us', Speaking Club and 'Our materials' texts.",
   "meta": {
     "title": "Անգլերենի առցանց դասեր լեզվակիրների հետ | Singing Cloud English",
     "description": "Անգլերենի առցանց դասընթացներ՝ անհատական դասեր, անգլերեն լեզվակրի հետ, Speaking Club, IELTS-ի նախապատրաստում և բիզնես անգլերեն։ Դասեր $12-ից։",
@@ -115,13 +115,35 @@
     ],
     "cta": "Միանալ Speaking Club-ին"
   },
+  "materials": {
+    "kicker": "Մեր նյութերը",
+    "title": "Մեր նյութերը",
+    "items": [
+      {
+        "icon": "book",
+        "name": "Վստահելի դասագրքեր",
+        "text": "English File, Headway և Cambridge IELTS՝ ընտրված յուրաքանչյուր աշակերտի մակարդակին և նպատակներին համապատասխան։"
+      },
+      {
+        "icon": "pen",
+        "name": "Անհատական նյութեր",
+        "text": "Մեր սեփական աշխատանքային թերթիկները, զրույցի թեմաները և իրական կյանքից վերցված վարժանքներ՝ պատրաստված յուրաքանչյուր աշակերտի համար։"
+      },
+      {
+        "icon": "award",
+        "name": "Քննությունների նախապատրաստում",
+        "text": "IELTS-ի ձևաչափով փորձնական թեստեր և խոսքի վարժանքներ։"
+      }
+    ],
+    "after": "Յուրաքանչյուր դաս կառուցվում է ձեր մակարդակի և նպատակների շուրջ։"
+  },
   "about": {
     "kicker": "Իմ մասին",
     "title": "Բարև, ես ձեր ուսուցիչն եմ",
     "name": "[Ձեր անունը]",
     "role": "Հիմնադիր և անգլերենի ուսուցիչ",
     "photo_alt": "[Ձեր անունը]՝ անգլերենի առցանց ուսուցիչ և Singing Cloud English-ի հիմնադիր",
-    "photo_label": "Ձեր լուսանկարը այստեղ",
+    "photo_label": "[Լուսանկարի տեղ — այստեղ կլինի ձեր լուսանկարը]",
     "bio": [
       "[Տեղ ձեր կենսագրության համար։] Ես 6 տարի դասավանդում եմ անգլերեն և ունեմ մագիստրոսի աստիճան [ձեր մասնագիտությունը] ոլորտում։",
       "[Պատմեք ձեր դասավանդման ոճի մասին, ում հետ եք սիրում աշխատել և ինչու եք ստեղծել Singing Cloud English-ը։]"
@@ -137,7 +159,7 @@
       }
     ],
     "video_label": "Դիտեք իմ ներածական տեսանյութը",
-    "video_note": "Ձեր ներածական տեսանյութը կհայտնվի այստեղ"
+    "video_note": "[Տեսանյութի տեղ — այստեղ կլինի ձեր ներածական տեսանյութը]"
   },
   "teachers": {
     "kicker": "Մեր ուսուցիչները",

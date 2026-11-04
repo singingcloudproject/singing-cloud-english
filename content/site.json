@@ -51,6 +51,11 @@
       "type": "club"
     },
     {
+      "id": "materials",
+      "type": "cards",
+      "bg": "bg-soft"
+    },
+    {
       "id": "about",
       "type": "about"
     },

@@ -376,3 +376,10 @@ p { margin: 0 0 1em; }
 /* "Why choose us" cards: icon on top, centred */
 #why .card { text-align: center; }
 #why .card-icon { margin-inline: auto; }
+
+/* ---------- "Our materials": centred cards and a closing line ---------- */
+#materials .card { text-align: center; }
+#materials .card-icon { margin-inline: auto; }
+.cards-after { margin: 40px auto 0; max-width: 640px; text-align: center; font-size: 1.2rem; font-weight: 800; color: var(--ink);
+  padding: 16px 26px; border-radius: 999px; background: #fff; border: 1.5px solid var(--gold-soft); box-shadow: var(--shadow-sm); }
+@media (max-width: 640px) { .cards-after { border-radius: var(--radius-sm); font-size: 1.05rem; } }
