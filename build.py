@@ -8,7 +8,6 @@ It reads:
 
 and writes the finished pages:
   index.html             -> English (main language)
-  fa/index.html          -> Persian (right-to-left)
   ru/index.html          -> Russian
   sitemap.xml, robots.txt
 
@@ -438,13 +437,12 @@ RENDERERS = {
     "join": s_join,
 }
 
-PERSIAN_DIGITS = "۰۱۲۳۴۵۶۷۸۹"
 LATIN_DIGITS = "0123456789"
 
 
 # ---------------------------------------------------------------- page
-OG_LOCALES = {"en": "en_US", "fa": "fa_IR", "ru": "ru_RU", "hy": "hy_AM"}
-LANG_NAMES = {"en": "English", "fa": "Persian", "ru": "Russian", "hy": "Armenian"}
+OG_LOCALES = {"en": "en_US", "ru": "ru_RU", "hy": "hy_AM"}
+LANG_NAMES = {"en": "English", "ru": "Russian", "hy": "Armenian"}
 
 
 def build_schema(site, lang, t, langs, base, url):
@@ -495,7 +493,7 @@ def page(site, lang, t, langs):
         "site": site,
         "lang": lang,
         "prefix": prefix,
-        "digits": PERSIAN_DIGITS if lang["code"] == "fa" else LATIN_DIGITS,
+        "digits": LATIN_DIGITS,
     }
 
     # nav links: every section that has a label in t["nav"]["links"]
