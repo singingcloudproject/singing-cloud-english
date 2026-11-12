@@ -73,8 +73,9 @@ p { margin: 0 0 1em; }
 .btn-gold:hover { background: #e9b552; box-shadow: 0 16px 32px -14px rgba(226, 169, 66, .9); }
 .btn-ghost { background: var(--white); border-color: var(--sky-soft); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--sky); box-shadow: var(--shadow-sm); }
-.btn-whatsapp { background: #25a35a; color: #fff; box-shadow: 0 10px 24px -12px rgba(37, 163, 90, .8); }
-.btn-whatsapp:hover { background: #2bb565; }
+.btn-instagram { background: var(--white); border-color: var(--sky-soft); color: var(--ink); box-shadow: var(--shadow-sm); }
+.btn-instagram:hover { border-color: var(--sky); }
+.ig-logo { width: 22px; height: 22px; object-fit: contain; flex: none; }
 .btn-sm { padding: 10px 20px; font-size: .9rem; }
 
 /* ---------- header ---------- */

@@ -297,15 +297,14 @@
   "contact": {
     "kicker": "Contact",
     "title": "Book your trial lesson",
-    "intro": "Message us on WhatsApp or fill in the form — we usually reply within one day.",
-    "whatsapp_btn": "Message on WhatsApp",
-    "whatsapp_text": "Hello! I'd like to book a trial English lesson.",
-    "whatsapp_note": "Replies in English, Russian or Armenian",
+    "intro": "Message us on Instagram or fill in the form — we usually reply within one day.",
+    "instagram_btn": "Message us on Instagram",
+    "instagram_note": "@singingcloudenglish · replies in English, Russian or Armenian",
     "or": "Or send a message",
     "form": {
       "name": "Your name",
       "email": "Email",
-      "phone": "WhatsApp / Telegram (optional)",
+      "phone": "Phone or Telegram (optional)",
       "topic": "Which lessons interest you?",
       "topic_options": [
         "Conversation",
@@ -319,8 +318,8 @@
       "send": "Send message",
       "sending": "Sending…",
       "success": "Thank you! Your message has been sent. We'll be in touch soon.",
-      "error": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
-      "not_connected": "The form isn't connected yet — please use WhatsApp for now.",
+      "error": "Sorry, something went wrong. Please try again or message us on Instagram.",
+      "not_connected": "The form isn't connected yet — please message us on Instagram for now.",
       "subject": "New enquiry — Singing Cloud English (EN)"
     }
   },
@@ -350,8 +349,8 @@
       "send": "Send application",
       "sending": "Sending…",
       "success": "Thank you! Your application has been sent. We'll be in touch soon.",
-      "error": "Sorry, something went wrong. Please try again or message us on WhatsApp.",
-      "not_connected": "The application form isn't connected yet — please message us on WhatsApp for now.",
+      "error": "Sorry, something went wrong. Please try again or message us on Instagram.",
+      "not_connected": "The application form isn't connected yet — please message us on Instagram for now.",
       "subject": "Teacher application — Singing Cloud English (EN)"
     }
   },
